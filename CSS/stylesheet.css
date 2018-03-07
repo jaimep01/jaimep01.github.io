@@ -22,6 +22,10 @@ body, html {
     background-blend-mode: overlay;
 }
 
+.divServices{
+    height: 96vh;
+}
+
 .removeHyperlinkColor{
     color: black;
 }
@@ -70,9 +74,5 @@ body, html {
         color: white;
         padding-top: 31vh;
         text-align: center;
-    }
-
-    .test{
-        height: 75px;
     }
 }
