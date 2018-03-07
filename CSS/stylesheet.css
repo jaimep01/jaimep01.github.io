@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Quicksand'; /*a name to be used later*/
+    src: url('../Fonts/Quicksand-Regular.ttf'); /*URL to font*/
+}
+
+
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding:0;
+    overflow:auto;
+    font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
+
+}
+.divWelcome{
+    background: url(../IMAGES/home/pexels-photo-234527.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    background-blend-mode: overlay;
+}
+
+.removeHyperlinkColor{
+    color: black;
+}
+
+.removeHyperlinkColor:hover{
+    color: teal;
+}
+
+
+
+@media(min-width: 1200px){
+    .alignContainer{
+        color: white;
+        padding-top: 31vh;
+        text-align: center;
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+    .alignContainer{
+        color: white;
+        padding-top: 31vh;
+        text-align: center;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    .alignContainer{
+        color: white;
+        padding-top: 31vh;
+        text-align: center;
+    }
+}
+
+@media(max-width: 767px){
+    .alignContainer{
+        color: white;
+        padding-top: 31vh;
+        text-align: center;
+    }
+}
+
+@media(max-width: 480px){
+
+    .alignContainer{
+        color: white;
+        padding-top: 31vh;
+        text-align: center;
+    }
+
+    .test{
+        height: 75px;
+    }
+}
