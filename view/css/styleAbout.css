@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Quicksand'; /*a name to be used later*/
+    src: url('../../view/fonts/Quicksand-Regular.ttf'); /*URL to font*/
+}
+
+body, html {
+    
+    font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+header{
+    border-bottom: 1px solid black;
+}
+
+.removeHyperlinkColor{
+    color: black;
+}
+
+.removeHyperlinkColor:hover{
+    color: teal;
+}

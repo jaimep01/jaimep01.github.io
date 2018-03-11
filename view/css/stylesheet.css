@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Quicksand'; /*a name to be used later*/
-    src: url('../Fonts/Quicksand-Regular.ttf'); /*URL to font*/
+    src: url('../../view/fonts/Quicksand-Regular.ttf'); /*URL to font*/
 }
 
 
@@ -34,13 +34,19 @@ body, html {
     color: teal;
 }
 
-
-
 @media(min-width: 1200px){
     .alignContainer{
         color: white;
         padding-top: 31vh;
         text-align: center;
+    }
+    .turnOnHover{
+        opacity: .3;
+        transition: opacity .5s ease-in-out;
+    }
+    .turnOnHover:hover{
+        opacity: 1;
+    
     }
 }
 
@@ -50,17 +56,33 @@ body, html {
         padding-top: 31vh;
         text-align: center;
     }
+    .turnOnHover{
+        opacity: .3;
+        transition: opacity .5s ease-in-out;
+    }
+    .turnOnHover:hover{
+        opacity: 1;
+    
+    }
 }
 
-@media(min-width: 768px) and (max-width: 991px){
+@media(min-width: 769px) and (max-width: 991px){
     .alignContainer{
         color: white;
         padding-top: 31vh;
         text-align: center;
     }
+    .turnOnHover{
+        opacity: .3;
+        transition: opacity .5s ease-in-out;
+    }
+    .turnOnHover:hover{
+        opacity: 1;
+    
+    }
 }
 
-@media(max-width: 767px){
+@media(max-width: 768px){
     .alignContainer{
         color: white;
         padding-top: 31vh;
