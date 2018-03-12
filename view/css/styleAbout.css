@@ -7,12 +7,6 @@ body, html {
     
     font-family: 'Quicksand', sans-serif;
     scroll-behavior: smooth;
-    background-image: url(../../view/images/home/pexels-photo-872958.jpeg);
-    background-size: 100vw 100vh;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
-
 }
 
 header{
