@@ -11,13 +11,6 @@
 </head>
 
 <body>
-
-        <form action="https://formspree.io/your@email.com"
-        method="POST">
-      <input type="text" name="name">
-      <input type="email" name="_replyto">
-      <input type="submit" value="Send">
-  </form>
     <div class="mainContainer">
         <header>
             <nav class="navbar navbar-expand-sm navbar-light bg-light">
@@ -39,12 +32,12 @@
             <div class="row ">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                         <div class="offset-6 col-lg-6 col-xl-6 d-none d-lg-block">
-                                <div class="form-group">
+                                <div class="form-group" action="https://formspree.io/your@email.com" method="POST">
                                         <label for="">Email</label>
-                                        <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
+                                        <input type="email" class="form-control" name="_replyto" id="" aria-describedby="emailHelpId" placeholder="">
                                       </div>
                                       <div class="form-group">
-                                        <label for="messageFormId">Message</label>
+                                        <label for="messageFormId" name="name">Message</label>
                                         <textarea class="form-control" name="messageFormId" id="messageFormId" rows="5"></textarea>
                                       </div>
                                       <div class="form-group">
@@ -52,7 +45,7 @@
                                         <input type="file" class="form-control-file" name="fotoWireFrameId" id="fotoWireFrameId" placeholder="fotoWireFrameId" aria-describedby="fileHelpId">
                                         <small id="fileHelpId" class="form-text text-muted">(Optional)</small>
                                       </div>
-                                      <button type="submit" class="btn btn-dark">Send</button>
+                                      <button type="submit" value="Send" class="btn btn-dark">Send</button>
                         </div>
 
                         <form  method="POST" action="https://formspree.io/14110177@itcj.edu.mx">
